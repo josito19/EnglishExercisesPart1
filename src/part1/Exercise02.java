@@ -55,11 +55,11 @@ public class Exercise02 {
 		double totalAmount = amount + interestEarned;
 
 		// Display results
-		System.out.printf("Account Type: " + accountName + " \r");
-		System.out.printf("Initial Deposit: " + amount + " \r");
-		System.out.printf("Annual Interest Rate: " + interestRate * 100 + " \r");
-		System.out.printf("Interest Earned in 1 Year: " + interestEarned + " \r");
-		System.out.printf("Total Amount After 1 Year: " + totalAmount + " \r");
+		System.out.println("Account Type: " + accountName);
+		System.out.println("Initial Deposit: " + amount);
+		System.out.println("Annual Interest Rate: " + interestRate * 100);
+		System.out.println("Interest Earned in 1 Year: " + interestEarned);
+		System.out.println("Total Amount After 1 Year: " + totalAmount);
 
 		// Close the scanner
 		sc.close();
